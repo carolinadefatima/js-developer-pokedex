@@ -1,0 +1,48 @@
+/* Estilo por tipo aplicado ao container .details */
+.details.normal       { background: linear-gradient(135deg, #a6a877, #d4d4aa); }
+.details.grass        { background: linear-gradient(135deg, #77c850, #b1e67e); }
+.details.fire         { background: linear-gradient(135deg, #ee7f30, #ffb266); }
+.details.water        { background: linear-gradient(135deg, #6890f0, #a0c0ff); }
+.details.electric     { background: linear-gradient(135deg, #f7cf2e, #fff89d); }
+.details.ice          { background: linear-gradient(135deg, #98d5d7, #c8f0f2); }
+.details.ground       { background: linear-gradient(135deg, #dfbf69, #f5e6a2); }
+.details.flying       { background: linear-gradient(135deg, #a98ff0, #cbbdf7); }
+.details.poison       { background: linear-gradient(135deg, #a040a0, #d080d0); }
+.details.fighting     { background: linear-gradient(135deg, #bf3029, #e07b75); }
+.details.psychic      { background: linear-gradient(135deg, #f65687, #faa9c1); }
+.details.dark         { background: linear-gradient(135deg, #725847, #a5907c); }
+.details.rock         { background: linear-gradient(135deg, #b8a137, #e3cc82); }
+.details.bug          { background: linear-gradient(135deg, #a8b720, #c7db6e); }
+.details.ghost        { background: linear-gradient(135deg, #6e5896, #a396c1); }
+.details.steel        { background: linear-gradient(135deg, #b9b7cf, #e0e0f5); }
+.details.dragon       { background: linear-gradient(135deg, #6f38f6, #a98ff0); }
+.details.fairy        { background: linear-gradient(135deg, #f9aec7, #ffd6e6); }
+
+
+
+.details {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+    color: #fff;
+}
+
+.details img {
+    max-width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+.details button {
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .5rem;
+    background: #6c79db;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}

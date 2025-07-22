@@ -19,7 +19,7 @@
 }
 
 .water {
-    background-color: #678fee;
+    background-color: #6890f0;
 }
 
 .electric {
@@ -134,6 +134,7 @@
     align-items: center;
     width: 100%;
     padding: 1rem;
+    user-select: none;
 }
 
 .pagination button {
@@ -144,6 +145,7 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
@@ -162,4 +164,9 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+.pokemon a {
+  text-decoration: none;
+  color: inherit;
 }
